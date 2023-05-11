@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+  </head>
+  <body>
+    <div class="my-page">
+      <nav class="navbar fixed-top navbar-expand-lg nav-bar nav-bg">
+        <!-- <div class="container nav"> -->
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="F-page" id="Home">
+        <div class="profile">
+          <div data-aos="fade-down" data-aos-duration="3000">
+            <div class="img-bg">
+              <img src="images/home.png" class="rounded-circle pro-img" />
+            </div>
+          </div>
+        </div>
+        <div class="name">
+          <div data-aos="fade-right" data-aos-duration="3000">
+            <h1>PRIYADHARSHINI D</h1>
+          </div>
+        </div>
+        <div class="work">
+          <div data-aos="fade-left" data-aos-duration="3000">
+            <h2>Full Stack Developer</h2>
+          </div>
+        </div>
+        <div class="s-line">
+          <p>"The only way to do great work is to love what you do."</p>
+        </div>
+        <!-- <div class="cv ">
+            <a href=""><button class="text-align">
+              Download CV
+            </button></a>
+        </div> -->
+        <div class="cv">
+        <a href="document/Nandhu.pdf" download="RESUME" ><button id="btn-id">
+          Download CV
+        </button></a>
+      </div>
+      </section>
+      
+      <section id="About" class="container pb-5">
+        <div class="content mx-auto">
+          <h1>About</h1>
+          <!-- <div class=""> -->
+          <div class="row mt-5 p1">
+            <div class="col-lg-5 col-md-12 col-sm-12 abt-img">
+              <div class="abt">
+                <img
+                  src="images/imgprofilenp.png"
+                  class="img-fluid"
+                  data-aos="zoom-in"
+                  data-aos-duration="3000"
+                />
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 p2">
+              <p data-aos="zoom-in" data-aos-duration="3000">
+                Hi! This is Nandhakumar, am a computer science graduate. I specialize in creating
+                responsive and dynamic web applications, using a variety of
+                programming languages and technologies. I am constantly learning
+                and adapting to new technologies, which allows me to stay
+                up-to-date with the latest industry trends.I always seeking to learn and improve, And i strive to contribute to
+                innovative and impactful projects in my career.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Education">
+        <div class="container">
+        <div class="details">
+          <h1>Education</h1>
+          <div class="row Edu-img-col">
+            <div class="col-lg-2 col-md-2 col-sm-2 img-style">
+              <div class="Edu-img">
+                <img src="images/edu.png" class="rounded-circle" alt="" />
+              </div>
+              <p class="block"></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 line1"></div>
+        </div>
+        <div class="row">
+          <div class="col-5 text">
+            <div data-aos="fade-right" data-aos-duration="2500">
+              <h3>SSLC(2016)</h3>
+              <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio dicta cupiditate labore, dolorem, quasi quas hic nam eius consequatur, facilis explicabo accusantium laudantium repellat at asperiores reprehenderit provident ipsam iure. -->
+            </div>
+          </div>
+          <div class="col-2 center">
+            <p class="T-line"></p>
+            <div class="rounded-circle dot"></div>
+            <p class="T-line"></p>
+          </div>
+
+          <div class="col-5">
+            <div data-aos="fade-left" data-aos-duration="2500">
+              <div class="box">
+                <p class="paragraph">Board of Intermediate Education 10th in 2016 from Rajiv Gandhi National Matric Hr Sec School, with the aggregate of 88.75%</p>
+                <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore dolor magnam sequi adipisci quia iure aut porro vel earum. Vel facere nihil pariatur magnam id nostrum, iste atque expedita excepturi. -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 line1"></div>
+        </div>
+        <div class="row">
+          <div class="col-5">
+            <div data-aos="fade-right" data-aos-duration="2500">
+              <div class="box1">
+                <p class="paragraph">Board of Intermediate Education 12th in 2018 from Rajiv Gandhi National Matric Hr Sec School, with the aggregate of 78.20%</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 center">
+            <p class="T-line"></p>
+            <div class="rounded-circle dot"></div>
+            <p class="T-line"></p>
+          </div>
+
+          <div class="col-5 text1">
+            <div data-aos="fade-left" data-aos-duration="2500">
+              <div class="">
+                <h3>HSC(2018)</h3>
+              </div>
+            </div>
+            <!-- Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore dolor magnam sequi adipisci quia iure aut porro vel earum. Vel facere nihil pariatur magnam id nostrum, iste atque expedita excepturi. -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 line1"></div>
+        </div>
+        <div class="row">
+          <div class="col-5 text2">
+            <div data-aos="fade-right" data-aos-duration="2500">
+              <h3>B.E(2022)</h3>
+              <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio dicta cupiditate labore, dolorem, quasi quas hic nam eius consequatur, facilis explicabo accusantium laudantium repellat at asperiores reprehenderit provident ipsam iure. -->
+            </div>
+          </div>
+          <div class="col-2 center">
+            <p class="T-line"></p>
+            <div class="rounded-circle dot"></div>
+            <p class="T-line"></p>
+          </div>
+
+          <div class="col-5">
+            <div data-aos="fade-left" data-aos-duration="2500">
+              <div class="box">
+                <p class="paragraph">I'm Graduated B.E. in the stream of Computer Science and Engineering from University College of Engineering, Tindivanam. I achieved a CGPA of 7.6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 line1"></div>
+        </div>
+        <div class="row quotes">
+          <div class="col-2 center1">
+            <p class="T-line-1"></p>
+            <div class="rounded-circle dot"></div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section id="Skills">
+        <div class="container title">
+          <h1>Skills</h1>
+       <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+        <div class="logo1">
+          <div data-aos="fade-down" data-aos-duration="3000" class="logo">
+         <img src="images/java-icon.svg" class="img-fluid">
+         <h3 class="mt-3">Core java</h3>
+        </div>
+      </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+          <div class="logo2">
+            <div data-aos="fade-down" data-aos-duration="3000" class="logo">
+          <img src="images/5848104fcef1014c0b5e4950.png" class="img-fluid">
+          <h3 class="mt-3">Mysql</h3>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+          <div class="logo3">
+            <div data-aos="fade-down" data-aos-duration="3000" class="logo">
+          <img src="images/Bootstrap_logo.svg.png" class="img-fluid">
+          <h3 class="mt-3">Bootstrap</h3>
+        </div>
+        </div>
+      </div>
+        <!-- </div> -->
+        <!-- <div class="row mt-5"> -->
+          <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+          <div class="logo4">
+            <div data-aos="fade-down" data-aos-duration="3000" class="logo">
+           <img src="images/html.png" class="img-fluid">
+           <h3 class="mt-3">Html</h3>
+           </div>
+          </div>
+        </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+            <div class="logo5">
+              <div data-aos="fade-down" data-aos-duration="3000" class="logo">
+            <img src="images/css.png" class="img-fluid">
+            <h3 class="mt-3">CSS</h3>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 pt-5">
+            <div class="logo6">
+              <div data-aos="fade-down" data-aos-duration="3000" class="logo">
+            <img src="images/java script.png" class="img-fluid">
+            <h3 class="mt-3">Java Script</h3>
+            </div>
+          </div>
+        </div>
+          </div>
+        
+        </div>
+      </section>
+      <section id="Contact">
+        <div class="call">
+          <h1>Contact</h1>
+        
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-lg-6 col-md-12 col-sm-12 con-details">
+            <!-- <label for="validationCustom03" class="form-label">Enter your name</label> -->
+
+            <input
+              type="text"
+              class="form-control mt-4"
+              placeholder="Enter your name"
+              id="validationCustom03"
+              required
+            />
+
+            <div class="invalid-feedback">Enter valid name</div>
+
+            <div class="valid-feedback">Looks good!</div>
+
+            <!-- <label for="validationCustom03" class="form-label">Enter your email</label> -->
+
+            <input
+              type="text"
+              class="form-control mt-4"
+              placeholder="Enter Email"
+              id="validationCustom03"
+              required
+            />
+
+            <div class="invalid-feedback">Provide valid email id</div>
+
+            <div class="valid-feedback">Looks good!</div>
+
+            <!-- <label for="validationCustom03" class="form-label">Subject</label> -->
+
+            <input
+              type="text"
+              class="form-control mt-4"
+              placeholder="Subject"
+              id="validationCustom03"
+              required
+            />
+
+            <div class="invalid-feedback">Enter subject</div>
+
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+         
+          
+
+         
+
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <!-- <label for="validationCustom03" class="form-label">Message</label> -->
+           
+            <textarea
+              type="text"
+              class="form-control mt-4"
+              placeholder="Leave your meassage"
+              id="validationCustom03"
+              required
+            ></textarea>
+
+            <div class="invalid-feedback">Leave your comments</div>
+
+            <div class="valid-feedback">Looks good!</div>
+          </div>
+
+          <div class="col-lg-12 col-md-12 col-sm-12 mt-5">
+            <button class="btn btn-field mx-auto" type="submit">
+              <div class="submit">Submit form</div>
+            </button>
+          </div>
+        </div>
+        </form>
+      </section>
+     <footer >
+      <div class="icons container">
+        <a href="https://github.com/priyavdm" class="icon1"><i class="fa-brands fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/priyadharshini-d-04a49126a/" class="icon2"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        <a href="https://twitter.com/priya_vdm" class="icon3"><i class="fa-brands fa-twitter fa-2x"></i></a>
+      </div>
+     </footer>
+    </div>
+  <!-- </div>   -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script>
+            AOS.init();
+            (() => {
+
+       'use strict'
+
+
+
+
+       // Fetch all the forms we want to apply custom Bootstrap validation styles to
+
+       const forms = document.querySelectorAll('.needs-validation')
+
+
+
+
+       // Loop over them and prevent submission
+
+       Array.from(forms).forEach(form => {
+
+       form.addEventListener('submit', event => {
+
+       if (!form.checkValidity()) {
+
+       event.preventDefault()
+
+       event.stopPropagation()
+
+       }
+
+
+
+
+       form.classList.add('was-validated')
+      },false)
+
+       })
+
+      })()
+
+//script for showing popup when click download cv...
+      const downloadBtn = document.getElementById('btn-id');
+downloadBtn.addEventListener('click', (event) => {
+ if (confirm('Are you want to download this Resume file?','Yes,No')) {
+
+ event.target.parentElement.click();
+
+ }
+
+ else {
+
+ event.preventDefault();
+
+}
+
+});
+    </script>
+  </body>
+</html>
